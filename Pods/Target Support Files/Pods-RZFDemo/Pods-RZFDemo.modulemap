@@ -1,0 +1,6 @@
+framework module Pods_RZFDemo {
+  umbrella header "Pods-RZFDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
