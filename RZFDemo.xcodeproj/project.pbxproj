@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		CF34292A6853EAF0894CA58D /* Pods_RZFDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64A10FB297AFD7B15894DBCB /* Pods_RZFDemo.framework */; };
+		FD4E3736223F88B5009E0C28 /* RZFDirectoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4E3735223F88B5009E0C28 /* RZFDirectoryViewController.m */; };
+		FD4E373B223F8AB3009E0C28 /* Directory.plist in Resources */ = {isa = PBXBuildFile; fileRef = FD4E373A223F8AB3009E0C28 /* Directory.plist */; };
 		FD52563D2232068500868E17 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD52563C2232068500868E17 /* AppDelegate.m */; };
 		FD5256402232068500868E17 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD52563F2232068500868E17 /* ViewController.m */; };
 		FD5256432232068500868E17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD5256412232068500868E17 /* Main.storyboard */; };
@@ -39,6 +41,9 @@
 		64A10FB297AFD7B15894DBCB /* Pods_RZFDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RZFDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		86B1F37A409BD0DBD6C4BC3B /* Pods-RZFDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RZFDemo.release.xcconfig"; path = "Target Support Files/Pods-RZFDemo/Pods-RZFDemo.release.xcconfig"; sourceTree = "<group>"; };
 		BC9A4ADEB353000955E13D94 /* Pods-RZFDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RZFDemo.debug.xcconfig"; path = "Target Support Files/Pods-RZFDemo/Pods-RZFDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		FD4E3734223F88B5009E0C28 /* RZFDirectoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RZFDirectoryViewController.h; sourceTree = "<group>"; };
+		FD4E3735223F88B5009E0C28 /* RZFDirectoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RZFDirectoryViewController.m; sourceTree = "<group>"; };
+		FD4E373A223F8AB3009E0C28 /* Directory.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Directory.plist; sourceTree = "<group>"; };
 		FD5256382232068500868E17 /* RZFDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RZFDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD52563B2232068500868E17 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FD52563C2232068500868E17 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -97,8 +102,29 @@
 				BC9A4ADEB353000955E13D94 /* Pods-RZFDemo.debug.xcconfig */,
 				86B1F37A409BD0DBD6C4BC3B /* Pods-RZFDemo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		FD4E3737223F890A009E0C28 /* 视图 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "视图";
+			sourceTree = "<group>";
+		};
+		FD4E3738223F892D009E0C28 /* 第三方 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "第三方";
+			sourceTree = "<group>";
+		};
+		FD4E3739223F8966009E0C28 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				FD4E373A223F8AB3009E0C28 /* Directory.plist */,
+			);
+			path = resource;
 			sourceTree = "<group>";
 		};
 		FD52562F2232068500868E17 = {
@@ -130,6 +156,11 @@
 				FD52563C2232068500868E17 /* AppDelegate.m */,
 				FD52563E2232068500868E17 /* ViewController.h */,
 				FD52563F2232068500868E17 /* ViewController.m */,
+				FD4E3734223F88B5009E0C28 /* RZFDirectoryViewController.h */,
+				FD4E3735223F88B5009E0C28 /* RZFDirectoryViewController.m */,
+				FD4E3737223F890A009E0C28 /* 视图 */,
+				FD4E3738223F892D009E0C28 /* 第三方 */,
+				FD4E3739223F8966009E0C28 /* resource */,
 				FD5256412232068500868E17 /* Main.storyboard */,
 				FD5256442232068600868E17 /* Assets.xcassets */,
 				FD5256462232068600868E17 /* LaunchScreen.storyboard */,
@@ -168,6 +199,7 @@
 				FD5256342232068500868E17 /* Sources */,
 				FD5256352232068500868E17 /* Frameworks */,
 				FD5256362232068500868E17 /* Resources */,
+				0642F3180D2CCB82846BEE78 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -263,6 +295,7 @@
 			files = (
 				FD5256482232068600868E17 /* LaunchScreen.storyboard in Resources */,
 				FD5256452232068600868E17 /* Assets.xcassets in Resources */,
+				FD4E373B223F8AB3009E0C28 /* Directory.plist in Resources */,
 				FD5256432232068500868E17 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +317,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0642F3180D2CCB82846BEE78 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RZFDemo/Pods-RZFDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SGQRCode/SGQRCode.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SGQRCode.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RZFDemo/Pods-RZFDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		C3ECF2B208ECA23D4E3C43FD /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -314,6 +369,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD5256402232068500868E17 /* ViewController.m in Sources */,
+				FD4E3736223F88B5009E0C28 /* RZFDirectoryViewController.m in Sources */,
 				FD52564B2232068600868E17 /* main.m in Sources */,
 				FD52563D2232068500868E17 /* AppDelegate.m in Sources */,
 			);

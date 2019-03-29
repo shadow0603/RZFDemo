@@ -7,43 +7,145 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		28AEC6376F957D5F8966D56C49F091F0 /* Pods-RZFDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E41949E92F0597F8BCE966A936D1A538 /* Pods-RZFDemo-dummy.m */; };
-		DA46104190B450689E3BB5EC73387C94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		E696E135074EE80593AF2191D48441B4 /* Pods-RZFDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1766BE461597E0E7C11FFFF018754599 /* Pods-RZFDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		060C7F6DD1B145E181B5841697ECF941 /* SGQRCodeScanView.m in Sources */ = {isa = PBXBuildFile; fileRef = 597A9AF6FCC5E4F03EB9599A9229CE2D /* SGQRCodeScanView.m */; };
+		13EE13AC0F86189C4B91708C09163744 /* SGQRCode-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB6C4FE880BA36E61D4F70BD91714AD /* SGQRCode-dummy.m */; };
+		22B0EECBBBDD58F48F0CE01CB8C7FD28 /* SGQRCodeObtainConfigure.m in Sources */ = {isa = PBXBuildFile; fileRef = 0485B2B90D19B25AA11455408747E31B /* SGQRCodeObtainConfigure.m */; };
+		2B9B6FAE7F50F497B861F596D0B08D8C /* Pods-RZFDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A41E821ADD667866EE393939BF2ED85 /* Pods-RZFDemo-dummy.m */; };
+		2C42A444F0C616D4B79940CCBC07B847 /* SGQRCodeObtainConfigure.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FCA011C9FD368D72C2CD8C117E689F0 /* SGQRCodeObtainConfigure.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		492456A12232AA1AA3F6FEABC459BA03 /* Pods-RZFDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5B70CF1C111EB39855B3A3D372BEF89 /* Pods-RZFDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5808C5034CBB964A921D491C4F6E6E6E /* SGQRCode-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 56FCDBB1EA1DE6472CC2163FCEFE52CC /* SGQRCode-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		771F0B599147007A0143055207A05EBD /* SGQRCodeObtain.h in Headers */ = {isa = PBXBuildFile; fileRef = 08FCCDDB0BF5001470C9B5A4733A2F63 /* SGQRCodeObtain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF5C85A070E51B5DD571BE63CD13B6B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		BC2F66F4E7214DDD405FD62683694BC7 /* SGQRCode.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8EE07D157DF365792AC101110675E43D /* SGQRCode.bundle */; };
+		C2E003F0B200524A0842AD7058DAAB71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		D62C81B343722F590E23DE630BECFD72 /* SGQRCodeScanView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B6BC212728D6AE4DAC049EFA5593D62 /* SGQRCodeScanView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E375A5A283674BB25B95CD53F561C235 /* SGQRCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 1991E47C3BF81B06F434029AFCEAA9CB /* SGQRCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE455B5B6A86461547B89B66226B7DF8 /* SGQRCodeObtain.m in Sources */ = {isa = PBXBuildFile; fileRef = E88A43F8A0E4A837D737B167252F81D5 /* SGQRCodeObtain.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		75D22BC2AF7CC84C9E88E95CDA494D97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC86EF1862AA9850BA93A7DCFCF09D91;
+			remoteInfo = SGQRCode;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		1766BE461597E0E7C11FFFF018754599 /* Pods-RZFDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RZFDemo-umbrella.h"; sourceTree = "<group>"; };
-		40BD85F3B03709F63B7D7EDA75101010 /* Pods-RZFDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RZFDemo-Info.plist"; sourceTree = "<group>"; };
-		9B286DC071DA628D20780FECDA50E85A /* Pods-RZFDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RZFDemo.modulemap"; sourceTree = "<group>"; };
+		0485B2B90D19B25AA11455408747E31B /* SGQRCodeObtainConfigure.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SGQRCodeObtainConfigure.m; path = SGQRCode/SGQRCodeObtainConfigure.m; sourceTree = "<group>"; };
+		0489948AD534273DD523044951993A3F /* SGQRCode-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SGQRCode-Info.plist"; sourceTree = "<group>"; };
+		04AFBBA21EFAEE455B5D8D55557FF69B /* Pods-RZFDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RZFDemo.release.xcconfig"; sourceTree = "<group>"; };
+		08FCCDDB0BF5001470C9B5A4733A2F63 /* SGQRCodeObtain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SGQRCodeObtain.h; path = SGQRCode/SGQRCodeObtain.h; sourceTree = "<group>"; };
+		0D45B0FE0E13449D22F7AD2E270985D0 /* Pods-RZFDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RZFDemo-frameworks.sh"; sourceTree = "<group>"; };
+		1991E47C3BF81B06F434029AFCEAA9CB /* SGQRCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SGQRCode.h; path = SGQRCode/SGQRCode.h; sourceTree = "<group>"; };
+		20B5E7A4E7AA80AA11D94E18F37B618B /* Pods_RZFDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RZFDemo.framework; path = "Pods-RZFDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		273B03B3D544CC130173998118D854E5 /* SGQRCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SGQRCode.framework; path = SGQRCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A41E821ADD667866EE393939BF2ED85 /* Pods-RZFDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RZFDemo-dummy.m"; sourceTree = "<group>"; };
+		43974819284424394BD2CD1369A16D01 /* Pods-RZFDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RZFDemo-Info.plist"; sourceTree = "<group>"; };
+		56FCDBB1EA1DE6472CC2163FCEFE52CC /* SGQRCode-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SGQRCode-umbrella.h"; sourceTree = "<group>"; };
+		597A9AF6FCC5E4F03EB9599A9229CE2D /* SGQRCodeScanView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SGQRCodeScanView.m; path = SGQRCode/SGQRCodeScanView.m; sourceTree = "<group>"; };
+		6570560E114E10D15E91997734A66C34 /* Pods-RZFDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RZFDemo.modulemap"; sourceTree = "<group>"; };
+		6C7B1444A0D0461093772E06C1C35694 /* Pods-RZFDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RZFDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6FCA011C9FD368D72C2CD8C117E689F0 /* SGQRCodeObtainConfigure.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SGQRCodeObtainConfigure.h; path = SGQRCode/SGQRCodeObtainConfigure.h; sourceTree = "<group>"; };
+		8B03E39299A0E39EC9EE22A8942758DE /* SGQRCode.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SGQRCode.xcconfig; sourceTree = "<group>"; };
+		8EE07D157DF365792AC101110675E43D /* SGQRCode.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SGQRCode.bundle; path = SGQRCode/SGQRCode.bundle; sourceTree = "<group>"; };
+		91BB7D1A52E82674FC8D1BFDF2A99E89 /* Pods-RZFDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RZFDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		9B6BC212728D6AE4DAC049EFA5593D62 /* SGQRCodeScanView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SGQRCodeScanView.h; path = SGQRCode/SGQRCodeScanView.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AB40132D55E89225E9CB56BCBF74E435 /* Pods_RZFDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RZFDemo.framework; path = "Pods-RZFDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B842CD2176A761F702D1A6849753DF4C /* Pods-RZFDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RZFDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		BE75B4F59022952E46D83D6989CCA09C /* Pods-RZFDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RZFDemo.release.xcconfig"; sourceTree = "<group>"; };
+		A94107DA3E58B51770467F61F1BDA3A1 /* SGQRCode.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SGQRCode.modulemap; sourceTree = "<group>"; };
+		B71258E6C9A9351C72822BCC14C178D1 /* Pods-RZFDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RZFDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		C5B70CF1C111EB39855B3A3D372BEF89 /* Pods-RZFDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RZFDemo-umbrella.h"; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		E2D7E0361C126E42F81B5066DB75997D /* Pods-RZFDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RZFDemo-acknowledgements.plist"; sourceTree = "<group>"; };
-		E41949E92F0597F8BCE966A936D1A538 /* Pods-RZFDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RZFDemo-dummy.m"; sourceTree = "<group>"; };
-		EBF20CB93A8CE4F684118EBE2F1E0A6B /* Pods-RZFDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RZFDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		DCDAC6C47AB218B7E97611A7278FE8F7 /* SGQRCode-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SGQRCode-prefix.pch"; sourceTree = "<group>"; };
+		E88A43F8A0E4A837D737B167252F81D5 /* SGQRCodeObtain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SGQRCodeObtain.m; path = SGQRCode/SGQRCodeObtain.m; sourceTree = "<group>"; };
+		FEB6C4FE880BA36E61D4F70BD91714AD /* SGQRCode-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SGQRCode-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		582B16525B135FA7031FC564CD33202A /* Frameworks */ = {
+		11F4EB405553BDF734198A29AA93AA50 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA46104190B450689E3BB5EC73387C94 /* Foundation.framework in Frameworks */,
+				AF5C85A070E51B5DD571BE63CD13B6B6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0D92647598242CBACC3CD8533C053E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2E003F0B200524A0842AD7058DAAB71 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6EC3E7701FB2EB322EC9480D1CA0960E /* Targets Support Files */ = {
+		12BDD2EE8215F37FB922B2DFFFA2705C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DE866C1289D5E0059C971223603F4EE6 /* Pods-RZFDemo */,
+				20B5E7A4E7AA80AA11D94E18F37B618B /* Pods_RZFDemo.framework */,
+				273B03B3D544CC130173998118D854E5 /* SGQRCode.framework */,
 			);
-			name = "Targets Support Files";
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47558625284EA36F302761B478DB859E /* SGQRCode */ = {
+			isa = PBXGroup;
+			children = (
+				1991E47C3BF81B06F434029AFCEAA9CB /* SGQRCode.h */,
+				08FCCDDB0BF5001470C9B5A4733A2F63 /* SGQRCodeObtain.h */,
+				E88A43F8A0E4A837D737B167252F81D5 /* SGQRCodeObtain.m */,
+				6FCA011C9FD368D72C2CD8C117E689F0 /* SGQRCodeObtainConfigure.h */,
+				0485B2B90D19B25AA11455408747E31B /* SGQRCodeObtainConfigure.m */,
+				9B6BC212728D6AE4DAC049EFA5593D62 /* SGQRCodeScanView.h */,
+				597A9AF6FCC5E4F03EB9599A9229CE2D /* SGQRCodeScanView.m */,
+				8421B0A179C68873BE647D9B735D7FFC /* Resources */,
+				7C3FAF30C9A581AD2270D1EC80B0352D /* Support Files */,
+			);
+			name = SGQRCode;
+			path = SGQRCode;
+			sourceTree = "<group>";
+		};
+		4B165A2A0CC8CCFAC5AA7D6904170A1B /* Pods-RZFDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6570560E114E10D15E91997734A66C34 /* Pods-RZFDemo.modulemap */,
+				6C7B1444A0D0461093772E06C1C35694 /* Pods-RZFDemo-acknowledgements.markdown */,
+				B71258E6C9A9351C72822BCC14C178D1 /* Pods-RZFDemo-acknowledgements.plist */,
+				3A41E821ADD667866EE393939BF2ED85 /* Pods-RZFDemo-dummy.m */,
+				0D45B0FE0E13449D22F7AD2E270985D0 /* Pods-RZFDemo-frameworks.sh */,
+				43974819284424394BD2CD1369A16D01 /* Pods-RZFDemo-Info.plist */,
+				C5B70CF1C111EB39855B3A3D372BEF89 /* Pods-RZFDemo-umbrella.h */,
+				91BB7D1A52E82674FC8D1BFDF2A99E89 /* Pods-RZFDemo.debug.xcconfig */,
+				04AFBBA21EFAEE455B5D8D55557FF69B /* Pods-RZFDemo.release.xcconfig */,
+			);
+			name = "Pods-RZFDemo";
+			path = "Target Support Files/Pods-RZFDemo";
+			sourceTree = "<group>";
+		};
+		7C3FAF30C9A581AD2270D1EC80B0352D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A94107DA3E58B51770467F61F1BDA3A1 /* SGQRCode.modulemap */,
+				8B03E39299A0E39EC9EE22A8942758DE /* SGQRCode.xcconfig */,
+				FEB6C4FE880BA36E61D4F70BD91714AD /* SGQRCode-dummy.m */,
+				0489948AD534273DD523044951993A3F /* SGQRCode-Info.plist */,
+				DCDAC6C47AB218B7E97611A7278FE8F7 /* SGQRCode-prefix.pch */,
+				56FCDBB1EA1DE6472CC2163FCEFE52CC /* SGQRCode-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SGQRCode";
+			sourceTree = "<group>";
+		};
+		8421B0A179C68873BE647D9B735D7FFC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8EE07D157DF365792AC101110675E43D /* SGQRCode.bundle */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
@@ -54,21 +156,14 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		C579055F7C8C9BEAF6FF8D5122F500BC /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				AB40132D55E89225E9CB56BCBF74E435 /* Pods_RZFDemo.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				C579055F7C8C9BEAF6FF8D5122F500BC /* Products */,
-				6EC3E7701FB2EB322EC9480D1CA0960E /* Targets Support Files */,
+				F9FBC3E0E785339643A4EFB3142E448E /* Pods */,
+				12BDD2EE8215F37FB922B2DFFFA2705C /* Products */,
+				E5A5A7E2C0F739D2F60D7E23BA80419D /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -80,52 +175,83 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DE866C1289D5E0059C971223603F4EE6 /* Pods-RZFDemo */ = {
+		E5A5A7E2C0F739D2F60D7E23BA80419D /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				9B286DC071DA628D20780FECDA50E85A /* Pods-RZFDemo.modulemap */,
-				B842CD2176A761F702D1A6849753DF4C /* Pods-RZFDemo-acknowledgements.markdown */,
-				E2D7E0361C126E42F81B5066DB75997D /* Pods-RZFDemo-acknowledgements.plist */,
-				E41949E92F0597F8BCE966A936D1A538 /* Pods-RZFDemo-dummy.m */,
-				40BD85F3B03709F63B7D7EDA75101010 /* Pods-RZFDemo-Info.plist */,
-				1766BE461597E0E7C11FFFF018754599 /* Pods-RZFDemo-umbrella.h */,
-				EBF20CB93A8CE4F684118EBE2F1E0A6B /* Pods-RZFDemo.debug.xcconfig */,
-				BE75B4F59022952E46D83D6989CCA09C /* Pods-RZFDemo.release.xcconfig */,
+				4B165A2A0CC8CCFAC5AA7D6904170A1B /* Pods-RZFDemo */,
 			);
-			name = "Pods-RZFDemo";
-			path = "Target Support Files/Pods-RZFDemo";
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F9FBC3E0E785339643A4EFB3142E448E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				47558625284EA36F302761B478DB859E /* SGQRCode */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		A1D0E79D7606F5AF3B409333A962A63E /* Headers */ = {
+		590B04227467C0AB1E2CB0DB8966FE96 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E696E135074EE80593AF2191D48441B4 /* Pods-RZFDemo-umbrella.h in Headers */,
+				5808C5034CBB964A921D491C4F6E6E6E /* SGQRCode-umbrella.h in Headers */,
+				E375A5A283674BB25B95CD53F561C235 /* SGQRCode.h in Headers */,
+				771F0B599147007A0143055207A05EBD /* SGQRCodeObtain.h in Headers */,
+				2C42A444F0C616D4B79940CCBC07B847 /* SGQRCodeObtainConfigure.h in Headers */,
+				D62C81B343722F590E23DE630BECFD72 /* SGQRCodeScanView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7331AB7FADE581493847BAAAA2A03ED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				492456A12232AA1AA3F6FEABC459BA03 /* Pods-RZFDemo-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		A16ED712E34F137B252808F40D811909 /* Pods-RZFDemo */ = {
+		3635C0640561822A7D0CBE5233656C51 /* Pods-RZFDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 818032ABC4348D918B771B3DDC68A371 /* Build configuration list for PBXNativeTarget "Pods-RZFDemo" */;
+			buildConfigurationList = 8EA7BA01E7DD0891E6B5AAB48AE417B2 /* Build configuration list for PBXNativeTarget "Pods-RZFDemo" */;
 			buildPhases = (
-				A1D0E79D7606F5AF3B409333A962A63E /* Headers */,
-				770BF93B148D64D39C96CAD8F79D27B4 /* Sources */,
-				582B16525B135FA7031FC564CD33202A /* Frameworks */,
-				5D33AFBF19A84D005660EC9B27A9BF2E /* Resources */,
+				A7331AB7FADE581493847BAAAA2A03ED /* Headers */,
+				2780F65AC66D5E13F71FEB4CBFC9B621 /* Sources */,
+				11F4EB405553BDF734198A29AA93AA50 /* Frameworks */,
+				15C664CC0CE6E435A3699F2F03EABC08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F2537DB8AA3B3C661640EB7831AD32B /* PBXTargetDependency */,
+			);
+			name = "Pods-RZFDemo";
+			productName = "Pods-RZFDemo";
+			productReference = 20B5E7A4E7AA80AA11D94E18F37B618B /* Pods_RZFDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FC86EF1862AA9850BA93A7DCFCF09D91 /* SGQRCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62F0C2751C714C62D0F5F018FF256C2C /* Build configuration list for PBXNativeTarget "SGQRCode" */;
+			buildPhases = (
+				590B04227467C0AB1E2CB0DB8966FE96 /* Headers */,
+				ACE0B0CA565B0341086FCF050DEC252A /* Sources */,
+				D0D92647598242CBACC3CD8533C053E0 /* Frameworks */,
+				04A6F7F353B329C5242331D6FC347993 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-RZFDemo";
-			productName = "Pods-RZFDemo";
-			productReference = AB40132D55E89225E9CB56BCBF74E435 /* Pods_RZFDemo.framework */;
+			name = SGQRCode;
+			productName = SGQRCode;
+			productReference = 273B03B3D544CC130173998118D854E5 /* SGQRCode.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -145,17 +271,26 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = C579055F7C8C9BEAF6FF8D5122F500BC /* Products */;
+			productRefGroup = 12BDD2EE8215F37FB922B2DFFFA2705C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A16ED712E34F137B252808F40D811909 /* Pods-RZFDemo */,
+				3635C0640561822A7D0CBE5233656C51 /* Pods-RZFDemo */,
+				FC86EF1862AA9850BA93A7DCFCF09D91 /* SGQRCode */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5D33AFBF19A84D005660EC9B27A9BF2E /* Resources */ = {
+		04A6F7F353B329C5242331D6FC347993 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC2F66F4E7214DDD405FD62683694BC7 /* SGQRCode.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15C664CC0CE6E435A3699F2F03EABC08 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -165,15 +300,35 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		770BF93B148D64D39C96CAD8F79D27B4 /* Sources */ = {
+		2780F65AC66D5E13F71FEB4CBFC9B621 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28AEC6376F957D5F8966D56C49F091F0 /* Pods-RZFDemo-dummy.m in Sources */,
+				2B9B6FAE7F50F497B861F596D0B08D8C /* Pods-RZFDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACE0B0CA565B0341086FCF050DEC252A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13EE13AC0F86189C4B91708C09163744 /* SGQRCode-dummy.m in Sources */,
+				EE455B5B6A86461547B89B66226B7DF8 /* SGQRCodeObtain.m in Sources */,
+				22B0EECBBBDD58F48F0CE01CB8C7FD28 /* SGQRCodeObtainConfigure.m in Sources */,
+				060C7F6DD1B145E181B5841697ECF941 /* SGQRCodeScanView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F2537DB8AA3B3C661640EB7831AD32B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SGQRCode;
+			target = FC86EF1862AA9850BA93A7DCFCF09D91 /* SGQRCode */;
+			targetProxy = 75D22BC2AF7CC84C9E88E95CDA494D97 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		05DF210AC65EBB0E593AAF976B2C2177 /* Release */ = {
@@ -300,9 +455,80 @@
 			};
 			name = Debug;
 		};
-		6336B2DF1CC9B8B0FA9B349EF5224A8D /* Release */ = {
+		932AC95122147A1F0A97D527477B7A40 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BE75B4F59022952E46D83D6989CCA09C /* Pods-RZFDemo.release.xcconfig */;
+			baseConfigurationReference = 8B03E39299A0E39EC9EE22A8942758DE /* SGQRCode.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SGQRCode/SGQRCode-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SGQRCode/SGQRCode-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SGQRCode/SGQRCode.modulemap";
+				PRODUCT_MODULE_NAME = SGQRCode;
+				PRODUCT_NAME = SGQRCode;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9B05997C2197EAEE46C68F84D6FA456E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91BB7D1A52E82674FC8D1BFDF2A99E89 /* Pods-RZFDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RZFDemo/Pods-RZFDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RZFDemo/Pods-RZFDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C2BA6BD2309B1E7D3055685F68668745 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04AFBBA21EFAEE455B5D8D55557FF69B /* Pods-RZFDemo.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -338,11 +564,10 @@
 			};
 			name = Release;
 		};
-		D4090B28CE742C2A028D506519125F3A /* Debug */ = {
+		CA56EA7C91650239FBAE6E7448D8366E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EBF20CB93A8CE4F684118EBE2F1E0A6B /* Pods-RZFDemo.debug.xcconfig */;
+			baseConfigurationReference = 8B03E39299A0E39EC9EE22A8942758DE /* SGQRCode.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -352,7 +577,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-RZFDemo/Pods-RZFDemo-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SGQRCode/SGQRCode-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SGQRCode/SGQRCode-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -360,20 +586,18 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-RZFDemo/Pods-RZFDemo.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/SGQRCode/SGQRCode.modulemap";
+				PRODUCT_MODULE_NAME = SGQRCode;
+				PRODUCT_NAME = SGQRCode;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -387,11 +611,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		818032ABC4348D918B771B3DDC68A371 /* Build configuration list for PBXNativeTarget "Pods-RZFDemo" */ = {
+		62F0C2751C714C62D0F5F018FF256C2C /* Build configuration list for PBXNativeTarget "SGQRCode" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D4090B28CE742C2A028D506519125F3A /* Debug */,
-				6336B2DF1CC9B8B0FA9B349EF5224A8D /* Release */,
+				932AC95122147A1F0A97D527477B7A40 /* Debug */,
+				CA56EA7C91650239FBAE6E7448D8366E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EA7BA01E7DD0891E6B5AAB48AE417B2 /* Build configuration list for PBXNativeTarget "Pods-RZFDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B05997C2197EAEE46C68F84D6FA456E /* Debug */,
+				C2BA6BD2309B1E7D3055685F68668745 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

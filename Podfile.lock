@@ -1,3 +1,16 @@
-PODFILE CHECKSUM: b7f2501560f65439071ed6dc92d3a2a2e0aeee52
+PODS:
+  - SGQRCode (3.0.1)
+
+DEPENDENCIES:
+  - SGQRCode (~> 3.0.1)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SGQRCode
+
+SPEC CHECKSUMS:
+  SGQRCode: bf02d60e18d6660a9d75ff1c8b9b467f064f054e
+
+PODFILE CHECKSUM: 590d7c46d1843bcfb7222aec0bf9fc33b154b654
 
 COCOAPODS: 1.6.1
