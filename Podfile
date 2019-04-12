@@ -3,5 +3,6 @@ use_frameworks!
 
 target 'RZFDemo' do
   pod 'SGQRCode', '~> 3.0.1'
+  pod 'Masonry'
 end
 

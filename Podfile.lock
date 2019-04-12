@@ -1,16 +1,20 @@
 PODS:
+  - Masonry (1.1.0)
   - SGQRCode (3.0.1)
 
 DEPENDENCIES:
+  - Masonry
   - SGQRCode (~> 3.0.1)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - Masonry
     - SGQRCode
 
 SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   SGQRCode: bf02d60e18d6660a9d75ff1c8b9b467f064f054e
 
-PODFILE CHECKSUM: 590d7c46d1843bcfb7222aec0bf9fc33b154b654
+PODFILE CHECKSUM: 502e010aadacdfa05328959d986b21f8cd6b180a
 
 COCOAPODS: 1.6.1
